@@ -1,0 +1,77 @@
+body {
+    background: linear-gradient(135deg, #0D1B2A, #1B263B); /* Futuristic dark gradient */
+}
+
+/* Hero Section */
+.hero {
+    height: 80vh;
+    background: linear-gradient(135deg, #14213D, #FCA311); /* Futuristic gradient */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Button */
+.hero .btn {
+    background-color: #FFD700; /* Yellow */
+    color: #0D1B2A;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+.hero .btn:hover {
+    background-color: #FFB703; /* Lighter Yellow */
+}
+
+/* Section Styles */
+.section {
+    padding: 40px 20px;
+    margin: 20px auto;
+    border-radius: 8px;
+    color: aliceblue;
+}
+
+/* Card Styles */
+.futuristic-card {
+    color: aliceblue;
+    background-color: #1B263B;
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+.futuristic-card:hover {
+    transform: scale(1.05);
+}
+
+/* List Group Styles */
+.futuristic-list .list-group-item {
+    border: none;
+    background-color: #0D1B2A;
+    color: #FFD700; /* Yellow text */
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.futuristic-list .list-group-item:hover {
+    background-color: #FFD700; /* Yellow on hover */
+    color: #0D1B2A; /* Dark blue */
+}
+
+/* Footer */
+footer {
+    background-color: #1B263B;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    .navbar-nav {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
